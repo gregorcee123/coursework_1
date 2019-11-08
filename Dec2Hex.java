@@ -33,7 +33,7 @@ class Dec2Hex
             num= num/16;
         }
         
-        System.out.println("Hexadecimal representation is : " + hexadecimal);
-        System.out.println("this is a test line to see if jenkins build when this file is pushed to my repository")
+        System.out.println("Hexadecimal representation is- : " + hexadecimal);
+        System.out.println("this is a test line to see if jenkins build when this file is pushed to my repository");
     }
 }
