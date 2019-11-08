@@ -38,8 +38,9 @@ class Dec2Hex
 	System.out.println("this is a third test, to see if jenkins checks for changes every minnute");   
 
 
-	//test error
-
-	throw new RuntimeException("Test runtime exception");
- }
+	// arithmitic error
+	
+	for (int i=0; i<1; i++){
+ 		 int x = 10/i; // Arithmetic exception}
+		 }
 }
