@@ -37,10 +37,4 @@ class Dec2Hex
         System.out.println("this is a test line to see if jenkins build when this file is pushed to my repository");
 	System.out.println("this is a third test, to see if jenkins checks for changes every minnute");   
 
-
-	// arithmitic error
-	
-	for (int i=0; i<1; i++){
- 		 int x = 10/i; // Arithmetic exception}
-		 }
 }
