@@ -36,5 +36,10 @@ class Dec2Hex
         System.out.println("Hexadecimal representation is- : " + hexadecimal);
         System.out.println("this is a test line to see if jenkins build when this file is pushed to my repository");
 	System.out.println("this is a third test, to see if jenkins checks for changes every minnute");   
+
+
+	//test error
+
+	throw new RuntimeException("Test runtime exception");
  }
 }
