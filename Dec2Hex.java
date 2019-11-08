@@ -7,6 +7,14 @@ class Dec2Hex
 
     public static void main(String args[])
     {
+        
+        // Check how many arguments were passed in
+        if(args.length == 0)
+        {
+            System.out.println("You need to add a decimal to turn into hex");
+            System.exit(0);
+        }else {
+        
         if (args.length > 0) 
         {
             try 
@@ -34,6 +42,8 @@ class Dec2Hex
         }
         
         System.out.println("Hexadecimal representation is : " + hexadecimal);
-
+            
+        }
     }
+    
 }
